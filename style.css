@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: -1;
+    min-height: 100vh;
+    background-color: rgb(216, 231, 231);
+}
+
+.container{
+    width: 100%;
+    padding: 1.5rem 1rem;
+    background-color: rgb(240, 206, 134);
+}
+.img0{
+    width: 70%;
+}
+.info{
+    margin: 0.1rem 0rem 0rem 20.5rem;
+    color: rgb(23 27 141);
+}
+.img{
+    width: 100%;
+}
+h2{
+    padding: 1.5rem 0rem 1.5rem 2rem;
+    background-color: rgb(145, 145, 145);
+}
+.para{
+    padding: 2rem 0.5rem;
+    background-color: rgb(216, 231, 231);
+}
+footer{
+    
+    position: relative;
+    top:6%;
+    width: 100%;
+    background-color: #333;
+    color: whitesmoke;
+    padding: 3rem;
+    text-align: center;
+}
+.media-link{
+    margin: 0rem 0.7rem;
+}
+.sm-icons{
+    width: 2rem;
+}
+hr{
+    margin: 0rem auto;
+    width: 50rem;
+}
+
+@media only screen and (min-width: 260px) and (max-width: 320px) {
+   html{
+    width: 460px;
+   }
+    body {
+        width: 100%;
+       height: 100%;
+    }
+    
+  }
+@media only screen and (max-width: 300px) and (min-height: 600px) {
+   html{
+    width: 470px;
+    height: 600px;
+   }
+    body {
+        width: 100%;
+       height: 100%;
+    }
+    hr{
+        width: 23rem;
+    }
+    .info {
+        margin: 0.1rem 0rem 0rem 8.5rem;
+    }
+    footer{
+        top: 10%;
+    }
+  }
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .nav-list{
+        margin: 0;
+    }
+    hr{
+        width: 17rem;
+    }
+    .info {
+        margin: 0.1rem 0rem 0rem 7rem;
+        font-size: 10px;
+    }
+    
+}
+@media only screen and (min-width: 320px) and (max-width: 600px)and (min-height: 860px) {
+    .nav-list{
+        margin: 0;
+    }
+    .info{
+        font-size: 11px;
+        margin: 0.1rem 0rem 0rem 7.8rem;
+    }
+    hr{
+        width: 17rem;
+    }
+    
+}
+@media only screen and (min-width: 540px) and (max-height: 800px) {
+    .nav-list{
+        margin: 0;
+    }
+    .info{
+        font-size: 11px;
+        margin: 0.1rem 0rem 0rem 10rem;
+    }
+    hr{
+        width: 26rem;
+    }
+    
+}
+@media only screen and (min-width: 700px) and (min-height: 1000px) {
+    .container{
+        padding: 4rem 1.5rem;
+    }
+    .navigation{
+        height: 5rem;
+    }
+    .img0{
+        width:70%;
+    }
+    body{
+        font-size: 2rem;
+    }
+    .info {
+        margin: 0.1rem 0rem 0rem 15.5rem;
+        font-size: 20px;
+    }
+    hr{
+        width: 30rem;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-height: 800px) {
+    .container{
+        padding: 4rem 1.5rem;
+    }
+    .navigation{
+        height: 5rem;
+    }
+    .img0{
+        width:70%;
+    }
+    body{
+        font-size: 1rem;
+    }
+    .info {
+        margin: 0.1rem 0rem 0rem 20rem;
+        font-size: 20px;
+    }
+    
+}
